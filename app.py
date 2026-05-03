@@ -31,10 +31,6 @@ st.set_page_config(
 # ─── Clean white CSS ─────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-html, body, [class*="st-"] { font-family: 'Inter', sans-serif; }
-
 .main .block-container { padding-top: 1.5rem; max-width: 1100px; }
 
 /* Clean metric cards */
@@ -45,21 +41,16 @@ div[data-testid="stMetric"] {
     padding: 14px 18px;
 }
 div[data-testid="stMetric"] label {
-    font-weight: 500; font-size: 0.82rem; color: #64748B;
+    color: #64748B;
 }
 div[data-testid="stMetric"] [data-testid="stMetricValue"] {
-    font-weight: 700; font-size: 1.6rem; color: #1E293B;
+    color: #1E293B;
 }
 
 /* Sidebar */
 section[data-testid="stSidebar"] { background: #F8FAFC; }
 
-/* Tabs */
-button[data-baseweb="tab"] { font-weight: 600; font-size: 0.9rem; }
-
 h1, h2, h3 { color: #1E293B; }
-
-.divider { border-top: 1px solid #E2E8F0; margin: 1.5rem 0; }
 </style>
 """, unsafe_allow_html=True)
 

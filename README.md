@@ -4,7 +4,7 @@ Classifies unstructured accounting expense remarks into **Services**, **Equipmen
 
 ---
 
-## 🐳 Docker — One-Command Setup (Recommended for Handover)
+## 🐳 Docker
 
 ```bash
 # Build and run (first time ~5min for model download)

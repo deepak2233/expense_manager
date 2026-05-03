@@ -46,42 +46,6 @@ python scripts/run_pipeline.py
 
 ---
 
-## 📂 Project Structure
-
-```
-expense_classifier/
-├── app.py                  ← 🎯 Streamlit dashboard (main entry)
-├── Dockerfile              ← 🐳 Docker image definition
-├── docker-compose.yml      ← 🐳 One-command orchestration
-├── .dockerignore
-├── .streamlit/config.toml  ← Dark theme config
-├── requirements.txt        ← Pinned dependencies
-├── README.md
-│
-├── data/raw/               ← Original inputs (never modified)
-│   ├── data.xlsx
-│   └── AI-ML-NLP Candidate Test.pdf
-│
-├── src/                    ← Modular source code
-│   ├── config.py           ← ⚙️  Single source of truth
-│   ├── preprocessing.py    ← Text normalisation + journal pre-filter
-│   ├── classifier.py       ← Zero-shot classification + review queue
-│   ├── evaluation.py       ← Consistency, learnability, gold-standard
-│   └── utils.py            ← Logging, I/O helpers
-│
-├── scripts/                ← CLI entry points
-│   ├── run_pipeline.py     ← One-command CLI pipeline
-│   ├── build_notebook.py   ← Generates Jupyter notebook
-│   └── build_summary.py    ← Generates Word doc
-│
-├── notebooks/              ← Generated Jupyter notebook
-└── outputs/                ← All generated outputs
-    ├── classified_data.xlsx
-    ├── human_review_queue.xlsx
-    ├── Executive_Summary.docx
-    └── plots/
-```
-
 ## 🏗️ Pipeline Architecture
 
 ```

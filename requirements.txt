@@ -1,0 +1,25 @@
+# Core
+pandas>=2.0
+numpy>=1.26
+openpyxl>=3.1
+
+# ML / NLP
+scikit-learn>=1.4
+torch>=2.0
+transformers>=4.30
+tqdm>=4.65
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+wordcloud>=1.9
+
+# Dashboard
+streamlit>=1.30
+
+# Document generation
+python-docx>=1.1
+
+# Notebook (optional)
+nbformat>=5.9
